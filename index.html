@@ -1,0 +1,487 @@
+<!--doctype html-->
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA_Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, intial-scale=1.0">
+
+<title>Alex Core Website</title>
+
+<!--page-icon------------>
+<link rel="shortcut icon" href="images/logo.png">
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,400i|Nunito:300,300i" rel="stylesheet">
+<!--stylesheet------------->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" referrerpolicy="no-referrer" />
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<!--light-slider.css------------->
+<link rel="stylesheet" type="text/css" href="css/lightslider.css">
+<!--Jquery-------------------->
+<!-- <script type="text/javascript" src="js/Jquery.js"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!--lightslider.js--------------->
+<script type="text/javascript" src="js/lightslider.js"></script>
+
+ <!--=============== REMIXICONS ===============-->
+ <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+</head>
+<body>
+
+	<header class="header" id="header">
+		<nav class="nav container">
+			<a href="#" class="nav__logo">ALEX CORE</a>
+
+			<div class="nav__menu" id="nav-menu">
+				<ul class="nav__list">
+					<li class="nav__item">
+						<a href="#home" class="nav__link active-link">Home</a>
+					</li>
+					<li class="nav__item">
+						<a href="#about" class="nav__link">About</a>
+					</li>
+					<li class="nav__item">
+						<a href="#features" class="nav__link">Features</a>
+					</li>
+					<li class="nav__item">
+						<a href="#team" class="nav__link">Team</a>
+					</li>
+					<li class="nav__item">
+						<a href="#contact" class="nav__link">Contact</a>
+					</li>
+				</ul>
+
+				<div class="nav__dark">
+					<!-- Theme change button -->
+					<span class="change-theme-name">Dark mode</span>
+					<i class="ri-moon-line change-theme" id="theme-button"></i>
+				</div>
+
+				<i class="ri-close-line nav__close" id="nav-close"></i>
+			</div>
+
+			<div class="nav__toggle" id="nav-toggle">
+				<i class="ri-function-line"></i>
+			</div>
+		</nav>
+	</header>
+	  <!--==================== HOME ====================-->
+	  <section class="home" id="home">
+           
+		<div class="showcase">
+		<video src="img/explore.mp4" muted loop autoplay></video>
+<div class="overlay1"></div> 
+
+		<div class="home__container container grid">
+			<div class="home__data">
+				<!-- <span class="home__data-subtitle">Discover your place</span> -->
+				<h1 class="home__data-title">Explore The <br> Best <b>RISC-V <br> Micro Processor</b></h1>
+				<a href="#" class="button">Graduation Book</a>
+
+			</div>
+
+			<div class="home__social">
+				<a href="#" target="_blank" class="home__social-link">
+					<i class="ri-facebook-box-fill"></i>
+				</a>
+				<a href="#" target="_blank" class="home__social-link">
+					<i class="ri-instagram-fill"></i>
+				</a>
+				<a href="#" target="_blank" class="home__social-link">
+					<i class="ri-twitter-fill"></i>
+				</a>
+			</div>
+		</div>
+	</div>
+</section>
+
+   <!--==================== ABOUT ====================-->
+   <section class="about section" id="about">
+	<div class="about__container container grid">
+		<div class="about__data">
+			<h2 class="section__title about__title line2">More Information <br> About The Processor</h2>
+			<p class="about__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium corrupti vitae nihil consequuntur, doloremque explicabo dolorem ut nisi voluptatum maiores illo deleniti ex incidunt quae aperiam ullam animi fuga perferendis!
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium corrupti vitae nihil consequuntur, doloremque explicabo dolorem ut nisi voluptatum maiores illo deleniti ex incidunt quae aperiam ullam animi fuga perferendis!
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium corrupti vitae nihil consequuntur, doloremque explicabo dolorem ut nisi voluptatum maiores illo deleniti ex incidunt quae aperiam ullam animi fuga perferendis!
+				Lorem ipsum dolor sit amet consectetur adipisicing elit.
+			</p>
+			<a href="#" class="button">SEE REPOSATORY</a>
+		</div>
+
+		<div class="about__img">
+			<div class="about__img-overlay">
+				<img src="img/about-pro-1.jpg" alt="" class="about__img-one">
+			</div>
+
+			<div class="about__img-overlay">
+				<img src="img/about-pro-2.jpg" alt="" class="about__img-two">
+			</div>
+		</div>
+	</div>
+</section>
+
+    <!----------------- FEATURES SECTION -------------->
+
+ <section class="grid-area" id="features">
+	 <div class="features">
+	<div class="feature">
+		<svg class="feature__icon">
+			<use xlink:href="img/sprite.svg#icon-global"></use>
+		</svg>
+		<h4 class="heading-4 heading-4--dark">World's best luxury homes</h4>
+		<p class="feature__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur distinctio necessitatibus pariatur voluptatibus.</p>
+	</div>
+
+	<div class="feature">
+		<svg class="feature__icon">
+			<use xlink:href="img/sprite.svg#icon-trophy"></use>
+		</svg>
+		<h4 class="heading-4 heading-4--dark">Only the best properties</h4>
+		<p class="feature__text">Voluptatum mollitia quae. Vero ipsum sapiente molestias accusamus rerum sed a eligendi aut quia.</p>
+	</div>
+
+	<div class="feature">
+		<svg class="feature__icon">
+			<use xlink:href="img/sprite.svg#icon-map-pin"></use>
+		</svg>
+		<h4 class="heading-4 heading-4--dark">All homes in in top locations</h4>
+		<p class="feature__text">Tenetur distinctio necessitatibus pariatur voluptatibus quidem consequatur harum.</p>
+	</div>
+
+	<div class="feature">
+		<svg class="feature__icon">
+			<use xlink:href="img/sprite.svg#icon-key"></use>
+		</svg>
+		<h4 class="heading-4 heading-4--dark">New home in one week</h4>
+		<p class="feature__text">Vero ipsum sapiente molestias accusamus rerum. Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+	</div>
+
+	<div class="feature">
+		<svg class="feature__icon">
+			<use xlink:href="img/sprite.svg#icon-presentation"></use>
+		</svg>
+		<h4 class="heading-4 heading-4--dark">Top 1% realtors</h4>
+		<p class="feature__text">Quidem consequatur harum, voluptatum mollitia quae. Tenetur distinctio necessitatibus pariatur voluptatibus.</p>
+	</div>
+
+	<div class="feature">
+		<svg class="feature__icon">
+			<use xlink:href="img/sprite.svg#icon-lock"></use>
+		</svg>
+		<h4 class="heading-4 heading-4--dark">Secure payments on nexter</h4>
+		<p class="feature__text">Pariatur voluptatibus quidem consequatur harum, voluptatum mollitia quae.</p>
+	</div>
+
+</div>
+</section>
+
+
+	<!-------------------- MEET THE TEEM --------------------->
+	<section  id="team">
+		 <div class="meet-team">
+		<span>	<h1 class="line1"> MEET THE TEAM</h1> </span>
+		</div> 
+		
+		<div class="slider">
+	<ul id="autoWidth" >
+	<!--1------------------------------------>	
+  <li class="item-a">
+<!--box-slider--------------->
+	<div class="box">
+	<!--img-box---------->
+	<div class="slide-img">
+	<img alt="1" src="images/Alaa-Elghamry.jpg">
+	<!--overlayer---------->
+	<div class="overlay">
+	<!--buy-btn------>	
+	<a href="https://drive.google.com/drive/folders/10OVodmHBrRquSsVcLSfaJTxCOVNGN_-X?fbclid=IwAR0aBS03sG-Ewf1Mh8AosYCoUXueVH-9ME0ZaCjN-zp1_5Kb_39OQLWsJpM" class="buy-btn">Download CV</a>	
+	</div>
+	</div>
+	<!--detail-box--------->
+	<div class="detail-box">
+	<!--type-------->
+	<div class="type">
+	<a href="#">Alaa Elghamry</a>
+	<span>Web Developer</span>
+	</div>
+	<!--price-------->
+	<div class="icons ">
+		<a href="https://www.facebook.com/alaa.tarek.188174" class="fab fa-facebook-f"  target="_blank"></a>
+		<a href="https://www.linkedin.com/in/alaa-elghamry-108b4318a/" class="fab fa-linkedin"  target="_blank" ></a>
+		<a href="https://github.com/Alaa-Elghamry" class="fab fa-github"  target="_blank" ></a>
+		<a href="mail.alaa.elghamry7@gmail.com" class="fas fa-envelope-open-text"  target="_blank" ></a>
+	</div>
+		
+	</div>
+	
+	</div>		
+</li>
+	<!--2------------------------------------>	
+    <li class="item-b">
+		<!--box-slider--------------->
+			<div class="box">
+			<!--img-box---------->
+			<div class="slide-img">
+			<img alt="3" src="images/omar.jpg">
+			<!--overlayer---------->
+			<div class="overlay">
+			<!--buy-btn------>	
+			<a href="https://drive.google.com/drive/folders/10OVodmHBrRquSsVcLSfaJTxCOVNGN_-X?fbclid=IwAR0aBS03sG-Ewf1Mh8AosYCoUXueVH-9ME0ZaCjN-zp1_5Kb_39OQLWsJpM" class="buy-btn">Download CV</a>	
+			</div>
+			</div>
+			<!--detail-box--------->
+			<div class="detail-box">
+			<!--type-------->
+			<div class="type">
+			<a href="#">Omar Younis</a>
+			<span>Digital Designer</span>
+			</div>
+			<!--price-------->
+			<div class="icons ">
+				<a href="https://www.facebook.com/o.younis98" class="fab fa-facebook-f" target="_blank"></a>
+				<a href="https://www.linkedin.com/in/oyounis/" class="fab fa-linkedin" target="_blank" ></a>
+				<a href="https://github.com/OYounis" class="fab fa-github" target="_blank" ></a>
+				<a href="#" class="fas fa-envelope-open-text" target="_blank"></a>
+			</div>
+				
+			</div>
+			
+			</div>		
+		</li>
+	<!--3------------------------------------>	
+
+<li class="item-c">
+	<!--box-slider--------------->
+		<div class="box">
+		<!--img-box---------->
+		<div class="slide-img">
+		<img alt="2" src="images/mostafa2.jpg">
+		<!--overlayer---------->
+		<div class="overlay">
+		<!--buy-btn------>	
+		<a href="https://drive.google.com/drive/folders/10OVodmHBrRquSsVcLSfaJTxCOVNGN_-X?fbclid=IwAR0aBS03sG-Ewf1Mh8AosYCoUXueVH-9ME0ZaCjN-zp1_5Kb_39OQLWsJpM" class="buy-btn">Download CV</a>	
+		</div>
+		</div>
+		<!--detail-box--------->
+		<div class="detail-box">
+		<!--type-------->
+		<div class="type">
+		<a href="#">Mostafa Mahmoud</a>
+		<span>Digital Designer</span>
+		</div>
+		<!--price-------->
+		<div class="icons ">
+			<a href="https://www.facebook.com/mmd020" class="fab fa-facebook-f" target="_blank"></a>
+			<a href="https://www.linkedin.com/in/moustafa-mahmoud-d/" class="fab fa-linkedin" target="_blank" ></a>
+			<a href="https://github.com/moustafamd
+			" class="fab fa-github" target="_blank" ></a>
+			<a href="#" class="fas fa-envelope-open-text" target="_blank"></a>
+		</div>
+			
+		</div>
+		
+		</div>		
+	</li>
+	<!--4------------------------------------>	
+  <li class="item-d">
+<!--box-slider--------------->
+	<div class="box">
+	<!--img-box---------->
+	<div class="slide-img">
+	<img alt="4" src="images/abdallah.JPG">
+	<!--overlayer---------->
+	<div class="overlay">
+	<!--buy-btn------>	
+	<a href="https://drive.google.com/drive/folders/10OVodmHBrRquSsVcLSfaJTxCOVNGN_-X?fbclid=IwAR0aBS03sG-Ewf1Mh8AosYCoUXueVH-9ME0ZaCjN-zp1_5Kb_39OQLWsJpM" class="buy-btn">Download CV</a>	
+	</div>
+	</div>
+	<!--detail-box--------->
+	<div class="detail-box">
+	<!--type-------->
+	<div class="type">
+	<a href="#">Mohamed Abdullah </a>
+	<span>Digital Designer</span>
+	</div>
+	<!--price-------->
+	<div class="icons ">
+		<a href="https://www.facebook.com/eldod201" class="fab fa-facebook-f" target="_blank"></a>
+		<a href="https://www.linkedin.com/in/mohamed-abdalla-7172961b3/" class="fab fa-linkedin" target="_blank" ></a>
+		<a href="#" class="fab fa-github" target="_blank" ></a>
+		<a href="#" class="fas fa-envelope-open-text" target="_blank"></a>
+	</div>
+		
+	</div>
+	
+	</div>		
+</li>
+	<!--5------------------------------------>	
+  <li class="item-e">
+<!--box-slider--------------->
+	<div class="box">
+	<!--img-box---------->
+	<div class="slide-img">
+	<img alt="5" src="images/nour.jpg">
+	<!--overlayer---------->
+	<div class="overlay">
+	<!--buy-btn------>	
+	<a href="https://drive.google.com/drive/folders/10OVodmHBrRquSsVcLSfaJTxCOVNGN_-X?fbclid=IwAR0aBS03sG-Ewf1Mh8AosYCoUXueVH-9ME0ZaCjN-zp1_5Kb_39OQLWsJpM" class="buy-btn">Download CV</a>	
+	</div>
+	</div>
+	<!--detail-box--------->
+	<div class="detail-box">
+	<!--type-------->
+	<div class="type">
+	<a href="">Mohamed Nour</a>
+	<span>Digital Designer</span>
+	</div>
+	<!--price-------->
+	<div class="icons ">
+		<a href="https://www.facebook.com/Mohamednourr22" class="fab fa-facebook-f" target="_blank"></a>
+		<a href="https://www.linkedin.com/in/mohamed-ahmed-943073159/" class="fab fa-linkedin" target="_blank" ></a>
+		<a href="#" class="fab fa-github" target="_blank" ></a>
+		<a href="#" class="fas fa-envelope-open-text" target="_blank"></a>
+	</div>
+		
+	</div>
+	
+	</div>		
+</li>
+	<!--6------------------------------------>	
+  <li class="item-f">
+<!--box-slider--------------->
+	<div class="box">
+	<!--img-box---------->
+	<div class="slide-img">
+	<img alt="6" src="images/contact1.jpg">
+	<!--overlayer---------->
+	<div class="overlay">
+	<!--buy-btn------>	
+	<a href="#" class="buy-btn">Download CV</a>	
+	</div>
+	</div>
+	<!--detail-box--------->
+	<div class="detail-box">
+	<!--type-------->
+	<div class="type">
+	<a href="#">SOMEONE</a>
+	<span>Digital Designer</span>
+	</div>
+	<!--price-------->
+	<div class="icons ">
+		<a href="#" class="fab fa-facebook-f" target="_blank"></a>
+		<a href="#" class="fab fa-linkedin" target="_blank" ></a>
+		<a href="#" class="fab fa-github" target="_blank" ></a>
+		<a href="#" class="fas fa-envelope-open-text" target="_blank"></a>
+	</div>
+		
+	</div>
+	
+	</div>		
+</li>
+	<!--7------------------------------------>	
+  <li class="item-g">
+<!--box-slider--------------->
+	<div class="box">
+	<!--img-box---------->
+	<div class="slide-img">
+	<img alt="7" src="images/contact1.jpg">
+	<!--overlayer---------->
+	<div class="overlay">
+	<!--buy-btn------>	
+	<a href="#" class="buy-btn">Download CV</a>	
+	</div>
+	</div>
+	<!--detail-box--------->
+	<div class="detail-box">
+	<!--type-------->
+	<div class="type">
+	<a href="#">SOMEONE</a>
+	<span>Digital Designer</span>
+	</div>
+	<!--price-------->
+	<div class="icons ">
+		<a href="#" class="fab fa-facebook-f" target="_blank"></a>
+		<a href="#" class="fab fa-linkedin" target="_blank" ></a>
+		<a href="#" class="fab fa-github" target="_blank" ></a>
+		<a href="#" class="fas fa-envelope-open-text" target="_blank"></a>
+	</div>
+	</div>
+	
+	</div>		
+</li>
+	<!--8------------------------------------>	
+  <li class="item-h">
+<!--box-slider--------------->
+	<div class="box">
+	<!--img-box---------->
+	<div class="slide-img">
+	 <img alt="8" src="images/contact1.jpg"> 
+	<!--overlayer---------->
+	<div class="overlay">
+	<!--buy-btn------>	
+	<a href="#" class="buy-btn">Download CV</a>	
+	</div>
+	</div>
+	<!--detail-box--------->
+	<div class="detail-box">
+	<!--type-------->
+	<div class="type">
+	<a href="#">SOMEONE</a>
+	<span>Digital Designer</span>
+	</div>
+	<!--price-------->
+	<div class="icons ">
+		<a href="#" class="fab fa-facebook-f" target="_blank"></a>
+		<a href="#" class="fab fa-linkedin" target="_blank" ></a>
+		<a href="#" class="fab fa-github" target="_blank" ></a>
+		<a href="#" class="fas fa-envelope-open-text" target="_blank"></a>
+	</div>
+		
+	</div>
+	
+	</div>		
+</li>
+  
+</ul>
+</div>
+	</section>
+
+<!--------------------- CONTACT ----------------------->
+  <section id="contact">
+
+	<div class="container1">
+		<div class="contact-box">
+			<div class="left"></div>
+			<div class="right">
+				<h2 class="line">Contact Us</h2>
+				<input type="text" class="field" placeholder="Your Name">
+				<input type="text" class="field" placeholder="Your Email">
+				<input type="text" class="field" placeholder="Phone">
+				<textarea placeholder="Message" class="field"></textarea>
+				<button class="btn">Send</button>
+			</div>
+		</div>
+	</div>
+  </section>
+
+
+<!---------------------- FOOTER ---------------------------->
+
+	<footer>
+		<section class="footer ">
+			<div class="rights">
+				<p>
+					Designed and Built by
+				
+					 <a href="https://www.linkedin.com/in/alaa-elghamry-108b4318a/"  target="_blank" > <b> ALAA ELGHAMRY </b> <br> </a>
+					
+					All @Copy Rights Resarved.
+				</p>
+			</div>
+		</section>
+	</footer>
+
+<!--script-link----------->
+<script type="text/javascript" src="js/script.js"></script>
+
+</body>
+</html>
