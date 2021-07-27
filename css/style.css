@@ -405,8 +405,13 @@ input {
 
 .about__description {
   margin-bottom: var(--mb-2);
+  margin-top: var(--mb-1-25);
 }
-
+.about__list {
+  list-style-type: circle;
+  margin-bottom: var(--mb-2);
+  margin-left: 15px;
+}
 .about__img {
   display: flex;
   column-gap: 2rem;
