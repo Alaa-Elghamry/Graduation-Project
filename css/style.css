@@ -576,7 +576,7 @@ a {
   justify-content: center;
   align-items: center;
 }
-.buy-btn {
+.cv-btn {
   width: 160px;
   height: 40px;
   display: flex;
@@ -588,7 +588,7 @@ a {
   border-radius: 20px;
   box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
 }
-.buy-btn:hover {
+.cv-btn:hover {
   color: #ffffff;
   background-color: hsl(190, 62%, 41%);
   transition: all ease 0.3s;
